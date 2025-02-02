@@ -1,0 +1,84 @@
+{
+  "kind": string,
+  "classReference": {
+    object (FlightClass)
+  },
+  "passengerName": string,
+  "boardingAndSeatingInfo": {
+    object (BoardingAndSeatingInfo)
+  },
+  "reservationInfo": {
+    object (ReservationInfo)
+  },
+  "securityProgramLogo": {
+    object (Image)
+  },
+  "hexBackgroundColor": string,
+  "id": string,
+  "classId": string,
+  "version": string,
+  "state": enum (State),
+  "barcode": {
+    object (Barcode)
+  },
+  "messages": [
+    {
+      object (Message)
+    }
+  ],
+  "validTimeInterval": {
+    object (TimeInterval)
+  },
+  "locations": [
+    {
+      object (LatLongPoint)
+    }
+  ],
+  "hasUsers": boolean,
+  "smartTapRedemptionValue": string,
+  "hasLinkedDevice": boolean,
+  "disableExpirationNotification": boolean,
+  "infoModuleData": {
+    object (InfoModuleData)
+  },
+  "imageModulesData": [
+    {
+      object (ImageModuleData)
+    }
+  ],
+  "textModulesData": [
+    {
+      object (TextModuleData)
+    }
+  ],
+  "linksModuleData": {
+    object (LinksModuleData)
+  },
+  "appLinkData": {
+    object (AppLinkData)
+  },
+  "rotatingBarcode": {
+    object (RotatingBarcode)
+  },
+  "heroImage": {
+    object (Image)
+  },
+  "groupingInfo": {
+    object (GroupingInfo)
+  },
+  "passConstraints": {
+    object (PassConstraints)
+  },
+  "saveRestrictions": {
+    object (SaveRestrictions)
+  },
+  "linkedObjectIds": [
+    string
+  ],
+  "notifyPreference": enum (NotificationSettingsForUpdates),
+  "valueAddedModuleData": [
+    {
+      object (ValueAddedModuleData)
+    }
+  ]
+}
